@@ -9,6 +9,9 @@ def is_valid(state):
     return True
         
 def get_neighbors(state):
+    """
+    from all the moves check valid moves returns them as list of list 
+    """
     farmer, fox, chicken, grain = state
     moves = []
     # move man only
